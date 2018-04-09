@@ -78,4 +78,17 @@ Repetitive declare async require component(s) in react router is not need now
       },
     ];
 `
+#Fix eslint error
+`
+  // .eslintrc.json
+  {
+    "root": true,
+    "parser": "foo",
+    "extends": "bar",
++   "globals": {
++     "asyncRouterBT": true
++   }
+  }
+
+`
 

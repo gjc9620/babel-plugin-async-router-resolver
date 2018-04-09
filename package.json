@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-async-router-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repetitive declare async require component(s) in react router is not need now",
   "main": "index.js",
   "scripts": {
