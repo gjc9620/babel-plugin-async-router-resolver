@@ -15,8 +15,8 @@ const code = `
   };
 
   const [
-    fuckRouter,
-    chunhuiRouter,
+    listRouter,
+    detailRouter,
   ] = asyncRouterBT(
     './pages/List',
     './pages/Detail',
