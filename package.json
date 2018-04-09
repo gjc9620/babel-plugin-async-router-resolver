@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-async-router-resolver",
+  "version": "1.0.0",
+  "description": "Repetitive declare async require component(s) in react router is not need now",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjc9620/babel-plugin-async-router-resolver.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "react",
+    "react-router"
+  ],
+  "author": "gujiacheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gjc9620/babel-plugin-async-router-resolver/issues"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "homepage": "https://github.com/gjc9620/babel-plugin-async-router-resolver#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-generator": "^6.26.1"
+  }
+}
