@@ -1,25 +1,4 @@
-const babel = require('babel-core');
 
-const code = `
-  export default {
-    path: 'customer',
-    component: App,
-    indexRoute: {
-      getComponent: asyncRouterBT('./pages/List'),
-    },
-    childRoutes: [
-      require('./pages/Detail/route').default,
-    ],
-  };
-
-  const [
-    fuckRouter,
-    chunhuiRouter,
-  ] = asyncRouterBT(
-    './pages/List',
-    './pages/List',
-  );
-`;
 
 const convert = path => `
   (undefined, function asyncRouter(location, cb) {
@@ -48,14 +27,6 @@ const visitor = {
     }
   },
 };
-
-// const result = babel.transform(code, {
-//   plugins: [{
-//     visitor,
-//   }],
-// });
-//
-// console.log(result.code);
 
 module.exports = function p() {
   return {
