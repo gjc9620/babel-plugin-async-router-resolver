@@ -5,7 +5,8 @@ Repetitive declare async require component(s) in react router is not need now
 `npm install --save-dev babel-plugin-async-router-resolver`
 
 # How to use
-`
+```
+
   //webpack.js
   const resolver = require('babel-plugin-async-router-resolver');
   babel.transform(code, {
@@ -39,10 +40,12 @@ Repetitive declare async require component(s) in react router is not need now
     './pages/List',
     './pages/Detail',
   );
-`
 
-#How it work
-`
+```
+
+# How it work
+```
+
   getComponent: asyncRouterBT('./pages/List'),
 
   //=> compiled
@@ -77,9 +80,11 @@ Repetitive declare async require component(s) in react router is not need now
         }
       },
     ];
-`
-#Fix eslint error
-`
+
+```
+# Fix eslint error
+```
+
   // .eslintrc.json
   {
     "root": true,
@@ -90,5 +95,5 @@ Repetitive declare async require component(s) in react router is not need now
 +   }
   }
 
-`
+```
 
