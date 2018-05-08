@@ -9,15 +9,15 @@ Repetitive declare async require component(s) in react router is not need now
 
   //router.js
   export default {
-      path: 'customer',
-      component: App,
-      indexRoute: {
-        getComponent: asyncRouterBT('./pages/List'), //require is async!
-      },
-      childRoutes: [
-        require('./pages/Detail/route').default,
-      ],
-    };
+    path: 'customer',
+    component: App,
+    indexRoute: {
+      getComponent: asyncRouterBT('./pages/List'), //require is async!
+    },
+    childRoutes: [
+      require('./pages/Detail/route').default,
+    ],
+  };
 
   //Perform it like a function
   asyncRouterBT('./pages/List').name; //asyncRouter
