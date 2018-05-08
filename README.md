@@ -26,8 +26,8 @@ Repetitive declare async require component(s) in react router is not need now
 
   //They are async!
   const [
-    listRouter,
-    detailRouter,
+    ListRouter,
+    DetailRouter,
   ] = asyncRouterBT(
     './pages/List',
     './pages/Detail',
