@@ -7,7 +7,6 @@ Repetitive declare async require component(s) in react router is not need now
 # How to use
 ```js
 
-  // babelrc //todo
   //router.js
   export default {
       path: 'customer',
