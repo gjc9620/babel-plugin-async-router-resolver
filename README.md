@@ -7,14 +7,7 @@ Repetitive declare async require component(s) in react router is not need now
 # How to use
 ```js
 
-  //webpack.js
-  const resolver = require('babel-plugin-async-router-resolver');
-  babel.transform(code, {
-    plugins: [
-      resolver
-    ],
-  });
-
+  // babelrc //todo
   //router.js
   export default {
       path: 'customer',
